@@ -14,6 +14,10 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+/*.biopic {
+  max-width: 100%;
+}*/
+
 .clear-fix {
   overflow: auto;
 }
@@ -28,7 +32,7 @@ h1 {
   font-size: 40px;
   color: #f5a623;
   line-height: 48px;
-  display: inline;
+  display: flex;
 }
 
 h2 {
@@ -60,7 +64,6 @@ h5 {
   padding:10px 5%;
 
 }
-
 
 .date-text {
   font-style: italic;
@@ -211,4 +214,15 @@ span {
   .biopic {
     display: block;
   }
+}
+
+.online-entry {
+  padding: 2% 0 0 0;
+  color: #999;
+}
+
+.projectpic {
+  height : 5%;
+  width : 15%;
+  display: auto;
 }
